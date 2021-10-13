@@ -251,7 +251,7 @@ gst_plugin_template_chain (GstPad * pad, GstObject * parent, GstBuffer * buf)
 static gboolean
 plugin_init (GstPlugin * plugin)
 {
-  /* debug category for fltering log messages
+  /* debug category for filtering log messages
    *
    * exchange the string 'Template plugin' with your description
    */
